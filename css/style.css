@@ -1,0 +1,76 @@
+.container {
+    height: 100vh; /* Définit la hauteur de la div .container à 100% de la hauteur de la fenêtre */
+    display: flex; /* Utilise un affichage flexbox */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    justify-content: center; /* Centre verticalement les éléments */
+    align-items: center; /* Centre horizontalement les éléments */
+    overflow: hidden;
+  }
+
+#newFactButton {
+    margin-top: 5%;
+    background-color: #E07A5F;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: 650;
+}
+
+#newFactButton:hover {
+  /* Styles lors du survol */
+  background-color: #E06C5F;
+  color: rgb(255, 255, 255);
+}
+
+.fun-fact {
+    margin: 0; /* Supprime les marges par défaut */
+    text-align: center; /* Centre le texte horizontalement */
+  }
+
+body {
+  background-color: #F4F1DE;
+}
+
+nav.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  margin-left: 1%;
+  font-weight:650;
+  text-shadow: 6px 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+.titlePoint {
+  color: #6a9e85;
+}
+
+.fa-solid {
+  font-size: 150%;
+  margin-right: 1%;
+}
+
+.darkTheme {
+  background-color: rgba(0, 0, 0, 0.963);
+  color: antiquewhite;
+}
+
+footer {
+  font-size: 0.9em;
+  font-weight: 400;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.owner {
+  margin-bottom: 0; 
+}
+
+.APILink {
+  text-decoration: none;
+  color: #406252;
+}
+  
